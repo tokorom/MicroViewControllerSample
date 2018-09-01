@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F395757B213A4A6800FC0045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957574213A4A6800FC0045 /* ViewController.swift */; };
 		F395757C213A4A6800FC0045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957575213A4A6800FC0045 /* AppDelegate.swift */; };
 		F395757D213A4A6800FC0045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957577213A4A6800FC0045 /* LaunchScreen.storyboard */; };
 		F395757E213A4A6800FC0045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3957578213A4A6800FC0045 /* Assets.xcassets */; };
 		F395757F213A4A6800FC0045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957579213A4A6800FC0045 /* Main.storyboard */; };
+		F3957582213A4B6500FC0045 /* Tweets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957581213A4B6500FC0045 /* Tweets.storyboard */; };
+		F3957585213A4BBD00FC0045 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957583213A4BBD00FC0045 /* TweetViewController.swift */; };
+		F3957586213A4BBD00FC0045 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957584213A4BBD00FC0045 /* TweetsViewController.swift */; };
+		F3957588213A4BF500FC0045 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957587213A4BF500FC0045 /* UserViewController.swift */; };
+		F395758A213A4C1C00FC0045 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957589213A4C1C00FC0045 /* StarViewController.swift */; };
+		F395758E213A4C5300FC0045 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F395758C213A4C5300FC0045 /* Tweet.swift */; };
+		F395758F213A4C5300FC0045 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F395758D213A4C5300FC0045 /* User.swift */; };
+		F3957591213A4C7200FC0045 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957590213A4C7200FC0045 /* Star.swift */; };
+		F3957593213A4CD700FC0045 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957592213A4CD700FC0045 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F395755C213A48F500FC0045 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3957574213A4A6800FC0045 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3957575213A4A6800FC0045 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3957577213A4A6800FC0045 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3957578213A4A6800FC0045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3957579213A4A6800FC0045 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F395757A213A4A6800FC0045 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3957581213A4B6500FC0045 /* Tweets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tweets.storyboard; sourceTree = "<group>"; };
+		F3957583213A4BBD00FC0045 /* TweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		F3957584213A4BBD00FC0045 /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		F3957587213A4BF500FC0045 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		F3957589213A4C1C00FC0045 /* StarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		F395758C213A4C5300FC0045 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		F395758D213A4C5300FC0045 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3957590213A4C7200FC0045 /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		F3957592213A4CD700FC0045 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,7 @@
 		F3957572213A4A6800FC0045 /* code */ = {
 			isa = PBXGroup;
 			children = (
+				F395758B213A4C5300FC0045 /* model */,
 				F3957573213A4A6800FC0045 /* controller */,
 			);
 			path = code;
@@ -72,8 +89,12 @@
 		F3957573213A4A6800FC0045 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				F3957574213A4A6800FC0045 /* ViewController.swift */,
 				F3957575213A4A6800FC0045 /* AppDelegate.swift */,
+				F3957592213A4CD700FC0045 /* MainViewController.swift */,
+				F3957584213A4BBD00FC0045 /* TweetsViewController.swift */,
+				F3957583213A4BBD00FC0045 /* TweetViewController.swift */,
+				F3957587213A4BF500FC0045 /* UserViewController.swift */,
+				F3957589213A4C1C00FC0045 /* StarViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -83,9 +104,20 @@
 			children = (
 				F3957577213A4A6800FC0045 /* LaunchScreen.storyboard */,
 				F3957579213A4A6800FC0045 /* Main.storyboard */,
+				F3957581213A4B6500FC0045 /* Tweets.storyboard */,
 				F3957578213A4A6800FC0045 /* Assets.xcassets */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		F395758B213A4C5300FC0045 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F395758C213A4C5300FC0045 /* Tweet.swift */,
+				F395758D213A4C5300FC0045 /* User.swift */,
+				F3957590213A4C7200FC0045 /* Star.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3957582213A4B6500FC0045 /* Tweets.storyboard in Resources */,
 				F395757F213A4A6800FC0045 /* Main.storyboard in Resources */,
 				F395757E213A4A6800FC0045 /* Assets.xcassets in Resources */,
 				F395757D213A4A6800FC0045 /* LaunchScreen.storyboard in Resources */,
@@ -159,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3957585213A4BBD00FC0045 /* TweetViewController.swift in Sources */,
+				F3957588213A4BF500FC0045 /* UserViewController.swift in Sources */,
 				F395757C213A4A6800FC0045 /* AppDelegate.swift in Sources */,
-				F395757B213A4A6800FC0045 /* ViewController.swift in Sources */,
+				F395758E213A4C5300FC0045 /* Tweet.swift in Sources */,
+				F3957586213A4BBD00FC0045 /* TweetsViewController.swift in Sources */,
+				F395758A213A4C1C00FC0045 /* StarViewController.swift in Sources */,
+				F3957593213A4CD700FC0045 /* MainViewController.swift in Sources */,
+				F395758F213A4C5300FC0045 /* User.swift in Sources */,
+				F3957591213A4C7200FC0045 /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
