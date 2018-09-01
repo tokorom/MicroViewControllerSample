@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3957560213A48F500FC0045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F395755F213A48F500FC0045 /* AppDelegate.swift */; };
-		F3957562213A48F500FC0045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957561213A48F500FC0045 /* ViewController.swift */; };
-		F3957565213A48F500FC0045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957563213A48F500FC0045 /* Main.storyboard */; };
-		F3957567213A48F600FC0045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3957566213A48F600FC0045 /* Assets.xcassets */; };
-		F395756A213A48F600FC0045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957568213A48F600FC0045 /* LaunchScreen.storyboard */; };
+		F395757B213A4A6800FC0045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957574213A4A6800FC0045 /* ViewController.swift */; };
+		F395757C213A4A6800FC0045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3957575213A4A6800FC0045 /* AppDelegate.swift */; };
+		F395757D213A4A6800FC0045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957577213A4A6800FC0045 /* LaunchScreen.storyboard */; };
+		F395757E213A4A6800FC0045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3957578213A4A6800FC0045 /* Assets.xcassets */; };
+		F395757F213A4A6800FC0045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3957579213A4A6800FC0045 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F395755C213A48F500FC0045 /* MicroViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F395755F213A48F500FC0045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3957561213A48F500FC0045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3957564213A48F500FC0045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3957566213A48F600FC0045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3957569213A48F600FC0045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F395756B213A48F600FC0045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F395755C213A48F500FC0045 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3957574213A4A6800FC0045 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3957575213A4A6800FC0045 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3957577213A4A6800FC0045 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3957578213A4A6800FC0045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3957579213A4A6800FC0045 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F395757A213A4A6800FC0045 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 		F3957553213A48F500FC0045 = {
 			isa = PBXGroup;
 			children = (
-				F395755E213A48F500FC0045 /* MicroViewControllerSample */,
+				F3957571213A4A6800FC0045 /* app */,
 				F395755D213A48F500FC0045 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +46,54 @@
 		F395755D213A48F500FC0045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F395755C213A48F500FC0045 /* MicroViewControllerSample.app */,
+				F395755C213A48F500FC0045 /* app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F395755E213A48F500FC0045 /* MicroViewControllerSample */ = {
+		F3957571213A4A6800FC0045 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				F395755F213A48F500FC0045 /* AppDelegate.swift */,
-				F3957561213A48F500FC0045 /* ViewController.swift */,
-				F3957563213A48F500FC0045 /* Main.storyboard */,
-				F3957566213A48F600FC0045 /* Assets.xcassets */,
-				F3957568213A48F600FC0045 /* LaunchScreen.storyboard */,
-				F395756B213A48F600FC0045 /* Info.plist */,
+				F3957572213A4A6800FC0045 /* code */,
+				F3957576213A4A6800FC0045 /* resource */,
+				F395757A213A4A6800FC0045 /* Info.plist */,
 			);
-			path = MicroViewControllerSample;
+			path = app;
+			sourceTree = "<group>";
+		};
+		F3957572213A4A6800FC0045 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				F3957573213A4A6800FC0045 /* controller */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		F3957573213A4A6800FC0045 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3957574213A4A6800FC0045 /* ViewController.swift */,
+				F3957575213A4A6800FC0045 /* AppDelegate.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F3957576213A4A6800FC0045 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3957577213A4A6800FC0045 /* LaunchScreen.storyboard */,
+				F3957579213A4A6800FC0045 /* Main.storyboard */,
+				F3957578213A4A6800FC0045 /* Assets.xcassets */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F395755B213A48F500FC0045 /* MicroViewControllerSample */ = {
+		F395755B213A48F500FC0045 /* app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F395756E213A48F600FC0045 /* Build configuration list for PBXNativeTarget "MicroViewControllerSample" */;
+			buildConfigurationList = F395756E213A48F600FC0045 /* Build configuration list for PBXNativeTarget "app" */;
 			buildPhases = (
 				F3957558213A48F500FC0045 /* Sources */,
 				F3957559213A48F500FC0045 /* Frameworks */,
@@ -79,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = MicroViewControllerSample;
+			name = app;
 			productName = MicroViewControllerSample;
-			productReference = F395755C213A48F500FC0045 /* MicroViewControllerSample.app */;
+			productReference = F395755C213A48F500FC0045 /* app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F395755B213A48F500FC0045 /* MicroViewControllerSample */,
+				F395755B213A48F500FC0045 /* app */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F395756A213A48F600FC0045 /* LaunchScreen.storyboard in Resources */,
-				F3957567213A48F600FC0045 /* Assets.xcassets in Resources */,
-				F3957565213A48F500FC0045 /* Main.storyboard in Resources */,
+				F395757F213A4A6800FC0045 /* Main.storyboard in Resources */,
+				F395757E213A4A6800FC0045 /* Assets.xcassets in Resources */,
+				F395757D213A4A6800FC0045 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3957562213A48F500FC0045 /* ViewController.swift in Sources */,
-				F3957560213A48F500FC0045 /* AppDelegate.swift in Sources */,
+				F395757C213A4A6800FC0045 /* AppDelegate.swift in Sources */,
+				F395757B213A4A6800FC0045 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F3957563213A48F500FC0045 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3957564213A48F500FC0045 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F3957568213A48F600FC0045 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3957569213A48F600FC0045 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F395756C213A48F600FC0045 /* Debug */ = {
@@ -284,7 +289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AXCX2DUCQ;
-				INFOPLIST_FILE = MicroViewControllerSample/Info.plist;
+				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AXCX2DUCQ;
-				INFOPLIST_FILE = MicroViewControllerSample/Info.plist;
+				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F395756E213A48F600FC0045 /* Build configuration list for PBXNativeTarget "MicroViewControllerSample" */ = {
+		F395756E213A48F600FC0045 /* Build configuration list for PBXNativeTarget "app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F395756F213A48F600FC0045 /* Debug */,
